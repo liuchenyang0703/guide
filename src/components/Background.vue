@@ -39,7 +39,7 @@ const bgRandom = Math.floor(Math.random() * 17 + 1);
 // 更换壁纸链接
 const changeBg = (type) => {
   if (type == 0) {
-    bgUrl.value = `/images/background${bgRandom}.jpg`;
+    bgUrl.value = `images/background${bgRandom}.jpg`;
   } else if (type == 1) {
     bgUrl.value = "https://imgapi.xl0408.top/index.php";
   } else if (type == 2) {
@@ -76,7 +76,7 @@ const imgLoadError = () => {
       fill: "#efefef",
     }),
   });
-  bgUrl.value = `/images/background${bgRandom}.jpg`;
+  bgUrl.value = `images/background${bgRandom}.jpg`;
 };
 
 // 监听壁纸切换
