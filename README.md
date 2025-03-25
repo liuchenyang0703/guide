@@ -98,7 +98,6 @@ docker run -p 12445:12445 -d home
 vite.config.js
 .env
 src/components/Background.vue
-src/assets/siteLinks.json
 src/assets/socialLinks.json
 ```
 
