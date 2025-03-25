@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Github",
+    "icon": "/images/icon/github.png",
+    "tip": "去 Github 看看",
+    "url": "https://github.com/liuchenyang0703"
+  },
+  {
+    "name": "Gitee",
+    "icon": "/images/icon/gitee.png",
+    "tip": "去 Gitee 看看",
+    "url": "https://gitee.com/liu-chenyang"
+  },
+  {
+    "name": "csdn",
+    "icon": "/images/icon/csdn.png",
+    "tip": "去CSDN看看,那里可能有你喜欢的文章 ~",
+    "url": "https://blog.csdn.net/liu_chen_yang?type=blog"
+  },
+  {
+    "name": "BiliBili",
+    "icon": "/images/icon/bilibili.png",
+    "tip": "(゜-゜)つロ 干杯 ~",
+    "url": "https://space.bilibili.com/39814207"
+  },
+  {
+    "name": "公众号",
+    "icon": "/images/icon/weixin.png",
+    "tip": "更多请关注微信公众号【小刘Linux】",
+    "url": "https://lcy-blog.oss-cn-beijing.aliyuncs.com/blog/202312142008812.png"
+  },
+  {
+    "name": "Email",
+    "icon": "/images/icon/email.png",
+    "tip": "来封 Email ~",
+    "url": "mailto:2162059863@qq.com"
+  }
+]
