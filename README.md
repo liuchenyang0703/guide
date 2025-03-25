@@ -74,6 +74,36 @@ docker run -p 12445:12445 -d home
 
 
 
+## 页面访问加后缀
+
+例如：我们要在某一个页面访问到它，而不是直接在主页访问到它
+
+就比如：[https://liuchenyang0703.github.io](https://liuchenyang0703.github.io)这个为主页
+
+我们要访问的是：[https://liuchenyang0703.github.io/guide/](https://liuchenyang0703.github.io/guide/)
+
+要把它放到这个需要加后缀的页面，我们需要改的地方有：
+
+* 首先需要在vite.config.js配置里添加`base: '/guide',`
+
+```bash
+  defineConfig({
+	base: "/guide",
+	
+```
+
+* 然后就是改各个页面的访问图片路径（各个配置文件名）：
+
+```bash
+vite.config.js
+.env
+src/components/Background.vue
+src/assets/siteLinks.json
+src/assets/socialLinks.json
+```
+
+
+
 ## 网站链接
 
 在 `src/assets/siteLinks.json` 中可以自定义网站链接（以指向自己的网站）:
